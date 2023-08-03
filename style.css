@@ -1,3 +1,20 @@
 body {
-	background-color: skyblue;
+	margin: 0;
+}
+
+.top-container {
+	background-image: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+	text-align: center;
+}
+
+.top-container h1 {
+	color: white;
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 2px;
 }
